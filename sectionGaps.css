@@ -1,9 +1,32 @@
 :root {
     --major-margin: 3rem;
-    --minor-margin: 2.5rem;
+    --minor-margin: 1rem;
     --header-margin: 2rem;
     --text-margin: 1rem;
 }
 main * {
     background-color: rgb(176, 200, 217);
+}
+
+/* Major Margins */
+#skills-image, #projects-image, #footer-image {
+    margin-top: var(--major-margin);
+}
+
+/* Minor Margins */
+#chemistry-section, .skill-bubble, .example {
+    margin-top: var(--minor-margin);
+}
+
+/* Desktop */
+@media screen and (min-width: 800px) {
+    /* Major Margins */
+    #skills-text, #projects-section, #footer-text {
+        margin-top: var(--major-margin);
+    }
+
+    /* Minor Margins */
+    #learner-section, .skill-bubble, .example {
+        margin-top: var(--minor-margin);
+    }
 }
