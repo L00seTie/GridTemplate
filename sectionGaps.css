@@ -1,0 +1,9 @@
+:root {
+    --major-margin: 3rem;
+    --minor-margin: 2.5rem;
+    --header-margin: 2rem;
+    --text-margin: 1rem;
+}
+main * {
+    background-color: rgb(176, 200, 217);
+}
