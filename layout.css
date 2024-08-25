@@ -1,13 +1,13 @@
+:root {
+    --major-margin: 3rem;
+    --minor-margin: 2.5rem;
+    --header-margin: 2rem;
+    --text-margin: 1rem;
+}
+
+
 /* Nav Styles */
 nav ul {
     display: flex;
     list-style: none;
 }
-
-/* Header Styles */
-.centering-container {
-    display: flex;
-    justify-content: center;
-}
-
-/* Main Styles */
