@@ -5,6 +5,17 @@
     --text-margin: 1rem;
 }
 
+/* Universal styles */
+.centering-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}/* Right now this is only used for the arrow image */
+
+/* Header styles */
+header {
+    height: 100vh;
+}
 
 /* Nav Styles */
 nav ul {

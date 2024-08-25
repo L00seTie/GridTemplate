@@ -9,9 +9,6 @@
         column-gap: 1rem;
     }
     /* Sections within main grid */
-    nav {
-        grid-column: 2 / 8;
-    }
     header {
         grid-column: 2 / 8;
     }
@@ -36,16 +33,19 @@
     }
 
     /* Sections within header subgrid */
+    nav {
+        grid-column: 1 / 7;
+    }
     #header-image {
         grid-column: var(--condensed-second-half);
     }
     #header-text {
         grid-column: var(--condensed-first-half);
-        grid-row: 1;
+        grid-row: 2;
     }
     #arrow-container {
         grid-column: 1 / 7;
-        grid-row: 2;
+        grid-row: 3;
     }
 
     /* Sections within main subgrid */
