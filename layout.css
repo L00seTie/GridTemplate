@@ -1,0 +1,13 @@
+/* Nav Styles */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+/* Header Styles */
+#arrow-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Main Styles */
