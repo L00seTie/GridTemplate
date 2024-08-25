@@ -5,3 +5,12 @@ html {
 body {
     grid-column: 2;
 }
+
+@media screen and (max-width: 800px) {
+    /* Bubbles have a sideways layout only on mobile */
+    .skill-bubble {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+    }
+}

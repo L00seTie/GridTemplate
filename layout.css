@@ -9,6 +9,11 @@
 header {
     height: 100vh;
 }
+#arrow-container {
+    position: absolute;
+    bottom: 2rem;
+    width: 90%;
+}
 
 /* Nav Styles */
 nav {
@@ -21,4 +26,14 @@ nav ul {
 }
 nav ul li {
     padding: 0.5rem;
+}
+
+/* Project Styles */
+.link-box {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.link-text {
+    margin-left: 1rem;
 }
