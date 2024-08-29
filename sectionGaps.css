@@ -33,7 +33,7 @@ footer {
     }
 
     /* Minor Margins */
-    #learner-section, .skill-bubble, .example {
+    #learner-section, .skill-bubble, .skill-group, .example {
         margin-top: var(--minor-margin);
     }
 }
