@@ -9,23 +9,18 @@
 header {
     height: 100vh;
 }
-#arrow-container {
-    position: absolute;
-    bottom: 2rem;
-    width: 90%;
-}
+#header-image, #header-text {
+    max-height: 50vh
+} /* FIXME CHANGE THIS IF THE IMAGE GETS SQUISHED */
 
 /* Nav Styles */
-nav {
-    padding: 1rem;
-}
 nav ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
 nav ul li {
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 
 /* Project Styles */

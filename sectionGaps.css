@@ -9,8 +9,11 @@ main * {
 }
 
 /* Major Margins */
-#skills-image, #projects-image, #footer-image {
+#arrow-container, #skills-image, #projects-image, #footer-image {
     margin-top: var(--major-margin);
+}
+footer {
+    margin-bottom: var(--major-margin);
 }
 
 /* Minor Margins */
