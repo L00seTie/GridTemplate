@@ -9,15 +9,18 @@ body * {
     background-color: beige;
 }
 
-/* Major Margins */
+/* Universal Major Margins */
 #arrow-container, #learner-section, #skills-image, #design-bubble, #projects-image, #footer-image {
     margin-top: var(--major-margin);
 }
 footer {
     margin-bottom: var(--major-margin);
 }
+#projects-section {
+    margin-bottom: var(--major-margin);
+}
 
-/* Minor Margins */
+/* Universal Minor Margins */
 #chemistry-section, .skill-bubble, .example {
     margin-top: var(--minor-margin);
 }
@@ -32,6 +35,12 @@ footer {
     /* Minor Margins */
     #learner-section, .skill-bubble, .example {
         margin-top: var(--minor-margin);
+    }
+}
+/* Mobile Only */
+@media screen and (max-width: 800px) {
+    #chemistry-section {
+        margin-top: var(--major-margin);
     }
 }
 
