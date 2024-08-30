@@ -4,6 +4,9 @@
     justify-content: center;
     align-items: center;
 }/* Right now this is only used for the arrow image */
+#learner-section, #chemistry-section, .skill-bubble, .example {
+    padding: 2rem;
+}
 
 /* Header styles */
 header {
@@ -21,6 +24,14 @@ nav ul {
 }
 nav ul li {
     padding: 0.3rem;
+}
+
+/* Skill Section Styles */
+.skill-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
 }
 
 /* Project Styles */

@@ -4,13 +4,11 @@
     --header-margin: 1rem;
     --text-margin: 0.5rem;
 }
-/* FIXME delete */
-body * {
-    background-color: beige;
-}
 
 /* Universal Major Margins */
-#arrow-container, #learner-section, #skills-image, #design-bubble, #projects-image, #footer-image {
+#arrow-container, #learner-section, 
+#skills-image, #design-bubble, #projects-image, 
+#footer-image {
     margin-top: var(--major-margin);
 }
 footer {
@@ -21,23 +19,27 @@ footer {
 }
 
 /* Universal Minor Margins */
-#chemistry-section, .skill-bubble, .example {
+#chemistry-section, .skill-bubble, .example,
+.link-box {
     margin-top: var(--minor-margin);
 }
 
-/* Desktop */
+/* Desktop Margins */
 @media screen and (min-width: 800px) {
     /* Major Margins */
-    #skills-text, #development-bubble, #content-bubble, #projects-section, #footer-text {
+    #skills-text, #development-bubble, 
+    #content-bubble, #projects-section, 
+    #footer-text {
         margin-top: var(--major-margin);
     }
 
     /* Minor Margins */
-    #learner-section, .skill-bubble, .skill-group, .example {
+    #learner-section, .skill-bubble, 
+    .skill-group, .example {
         margin-top: var(--minor-margin);
     }
 }
-/* Mobile Only */
+/* Mobile Only Margins */
 @media screen and (max-width: 800px) {
     #chemistry-section {
         margin-top: var(--major-margin);
@@ -51,6 +53,12 @@ h1, h2 {
 h3 {
     line-height: normal;
     margin: 0.5rem 0;
+}
+.skill-bubble h3 {
+    margin-top: 0rem;
+    /* These headers are already in a
+    a padded bubble so they don't need
+    the top margin */
 }
 p {
     margin-bottom: var(--text-margin);
