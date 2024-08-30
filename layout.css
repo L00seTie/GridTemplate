@@ -7,6 +7,9 @@
 #learner-section, #chemistry-section, .skill-bubble, .example {
     padding: 2rem;
 }
+* {
+    border-radius: 0.5rem;
+}
 
 /* Header styles */
 header {

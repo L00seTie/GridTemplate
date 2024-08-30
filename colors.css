@@ -1,10 +1,20 @@
 :root {
-    --bubble-color: rgba(255, 255, 255, 0.5);
+    --bubble-color: rgba(255, 210, 136, 0.5);
     --yellow: rgb(255, 244, 202);
+    --blue: rgb(110, 190, 255);
+    --red: rgb(235, 13, 13);
+    --text-color: rgb(60, 39, 30);
 }
 
 html {
     background-color: var(--yellow);
+    color: var(--text-color);
+}
+a {
+    color: var(--text-color);
+}
+a:hover {
+    color: var(--red);
 }
 #learner-section, #chemistry-section, .skill-bubble, .example {
     background-color: var(--bubble-color);
