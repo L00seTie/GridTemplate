@@ -3,13 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}/* Right now this is only used for the arrow image */
+}
 #learner-section, #chemistry-section, .skill-bubble, .example {
     padding: 2rem;
 }
 * {
     border-radius: 0.5rem;
 }
+
 
 /* Header styles */
 header {
@@ -27,6 +28,11 @@ nav ul {
 }
 nav ul li {
     padding: 0.3rem;
+}
+@media screen and (max-width: 800px) {
+    .nav-bullet {
+        display: none;
+    }
 }
 
 /* Skill Section Styles */
