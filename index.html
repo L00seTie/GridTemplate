@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="colors.css">
     <link rel="stylesheet" href="formStyles.css">
-    <link rel="stylesheet" href="dropdownNav.css">
 </head>
 <body>
 
@@ -211,7 +210,7 @@
                 I can be reached through the contact info included on my resumé, or through this form:
             </p>
             
-            <form id="footer-form" method="post">
+            <form id="footer-form" name="contact_form" action="contact-form-handler.php">
                 <fieldset>
                     <legend>Email me:</legend>
                     
@@ -245,6 +244,7 @@
                         <button type="submit" id="submit-button">Send Message</button>
                         <button type="reset" id="reset-button">Clear all</button>
                     </div>
+                </fieldset>
             </form>
         </div>
    
