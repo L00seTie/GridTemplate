@@ -19,3 +19,9 @@ a:hover {
 #learner-section, #chemistry-section, .skill-bubble, .example {
     background-color: var(--bubble-color);
 }
+#submit-button {
+    background-color: var(--blue);
+}
+#reset-button {
+    background-color: var(--bubble-color);
+}

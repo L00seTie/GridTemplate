@@ -21,11 +21,16 @@ footer {
 
 /* Universal Minor Margins */
 #chemistry-section, .skill-bubble, .example,
-.link-box {
+.link-box, #footer-form {
     margin-top: var(--minor-margin);
 }
 nav {
     margin: var(--minor-margin) 0rem;
+}
+.input-group {
+    margin: 0.5rem 0rem;
+    /* Smaller margin bc
+    it's added both above and below */
 }
 
 /* Desktop Margins */
