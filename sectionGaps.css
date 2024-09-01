@@ -1,3 +1,9 @@
+/* Margins/padding that separate sections
+of the site (and text elements from other
+text elements). Most are vertical (only on
+the top and bottom).
+Robin Johnson, 8/25/24 */
+
 :root {
     --major-margin: 3rem;
     --minor-margin: 1rem;
@@ -12,10 +18,7 @@
 #footer-image {
     margin-top: var(--major-margin);
 }
-footer {
-    margin-bottom: var(--major-margin);
-}
-#projects-section {
+footer, #projects-section {
     margin-bottom: var(--major-margin);
 }
 

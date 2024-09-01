@@ -1,3 +1,6 @@
+/* Grid template and placements for mobile,
+Robin Johnson, 8/23/24 */
+
 html {
     display: grid;
     grid-template-columns: 0.5fr 10fr 0.5fr;

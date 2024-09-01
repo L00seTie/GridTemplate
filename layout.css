@@ -1,3 +1,7 @@
+/* Layout styles that don't pertain to
+the major grids or the spacing of sections,
+Robin Johnson, 8/25/24 */
+
 /* Universal styles */
 .centering-container {
     display: flex;
